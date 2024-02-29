@@ -8,7 +8,7 @@
 - [Docs | TypeScript](https://www.typescriptlang.org/docs/)
 - [Notes and Examples](/examples/ts.md)
 
-## FRONTEND
+## Frontend
 
 - ### React JS
     -  [Docs | React](https://react.dev/learn)
@@ -18,22 +18,22 @@
     - [Docs | NextJS](https://nextjs.org/docs)
     - [Notes and Examples](/examples/next.md)
 
-- ### Ecosystem:
+    - ### Ecosystem
 
-    - [React Router](https://reactrouter.com/en/main) (*Routing*)
-    - [Redux Toolkit](https://redux-toolkit.js.org/) (*Rstate management*)
-    - [React Icons](https://react-icons.github.io/react-icons/) (*Icons*)
-    - [Tailwind CSS](/examples/react.md) (*Styles*)
-    - [Recharts](/examples/react.md) (*charts*)
+        - [React Router](https://reactrouter.com/en/main) (*routing*)
+        - [Redux Toolkit](https://redux-toolkit.js.org/) (*state management*)
+        - [React Icons](https://react-icons.github.io/react-icons/) (*icons*)
+        - [Tailwind CSS](/examples/react.md) (*styles*)
+        - [Recharts](/examples/react.md) (*charts*)
 
 
-## BACKEND
+## Backend
 
 - ### Nest JS
     - [Docs | NestJS](https://docs.nestjs.com/)
     - [Notes and Examples](/examples/nest.md)
     
-- ### Ecosystem:
+- ### Ecosystem
     - [TypeORM](https://typeorm.io/) (*ORM*)
 
 
