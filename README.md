@@ -22,7 +22,7 @@
 
     - *Routing* [React Router](https://reactrouter.com/en/main)
     - *Icons* [React Icons](https://react-icons.github.io/react-icons/) 
-    - *Styles* [Tailwind CSS: styles](/examples/react.md) 
+    -  [Tailwind CSS: styles](/examples/react.md) (*Styles*)
 
 ## BACKEND
 
