@@ -18,13 +18,13 @@
     - [Docs | NextJS](https://nextjs.org/docs)
     - [Notes and Examples](/examples/next.md)
 
-    - ### Ecosystem
+- ### Ecosystem (React, Next)
 
-        - [React Router](https://reactrouter.com/en/main) (*routing*)
-        - [Redux Toolkit](https://redux-toolkit.js.org/) (*state management*)
-        - [React Icons](https://react-icons.github.io/react-icons/) (*icons*)
-        - [Tailwind CSS](/examples/react.md) (*styles*)
-        - [Recharts](/examples/react.md) (*charts*)
+    - [React Router](https://reactrouter.com/en/main) (*routing*)
+    - [Redux Toolkit](https://redux-toolkit.js.org/) (*state management*)
+    - [React Icons](https://react-icons.github.io/react-icons/) (*icons*)
+    - [Tailwind CSS](/examples/react.md) (*styles*)
+    - [Recharts](/examples/react.md) (*charts*)
 
 
 ## Backend
