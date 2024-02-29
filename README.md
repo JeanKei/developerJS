@@ -20,9 +20,12 @@
 
 - ### Ecosystem:
 
-    - [React Router](https://reactrouter.com/en/main) (*Routing* )
+    - [React Router](https://reactrouter.com/en/main) (*Routing*)
+    - [Redux Toolkit](https://redux-toolkit.js.org/) (*Rstate management*)
     - [React Icons](https://react-icons.github.io/react-icons/) (*Icons*)
-    - [Tailwind CSS: styles](/examples/react.md) (*Styles*)
+    - [Tailwind CSS](/examples/react.md) (*Styles*)
+    - [Recharts](/examples/react.md) (*charts*)
+
 
 ## BACKEND
 
@@ -31,3 +34,13 @@
     - [Notes and Examples](/examples/nest.md)
     
 - ### Ecosystem:
+    - [TypeORM](https://typeorm.io/) (*ORM*)
+
+
+- ### Database
+
+## Deploy
+
+## Tools
+
+
