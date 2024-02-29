@@ -11,8 +11,8 @@
 ## FRONTEND
 
 - ### React JS
-    - #### [Docs | React](https://react.dev/learn)
-    - #### [Notes and Examples](/examples/react.md)
+    -  [Docs | React](https://react.dev/learn)
+    -  [Notes and Examples](/examples/react.md)
 
 - ### Next JS
     - #### [Docs | NextJS](https://nextjs.org/docs)
@@ -20,9 +20,9 @@
 
 - ### Ecosystem:
 
-    - кшщу #### [React Router:](https://reactrouter.com/en/main)
-    - #### [React Icons: icons](https://react-icons.github.io/react-icons/)
-    - #### [Tailwind CSS: styles](/examples/react.md)
+    - Routing: [React Router](https://reactrouter.com/en/main)
+    - Icons [React Icons](https://react-icons.github.io/react-icons/)
+    - Styles [Tailwind CSS: styles](/examples/react.md)
 
 ## BACKEND
 
