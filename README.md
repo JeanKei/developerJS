@@ -20,9 +20,9 @@
 
 - ### Ecosystem:
 
-    - *Routing* [React Router](https://reactrouter.com/en/main)
-    - *Icons* [React Icons](https://react-icons.github.io/react-icons/) 
-    -  [Tailwind CSS: styles](/examples/react.md) (*Styles*)
+    - [React Router](https://reactrouter.com/en/main) (*Routing* )
+    - [React Icons](https://react-icons.github.io/react-icons/) (*Icons*)
+    - [Tailwind CSS: styles](/examples/react.md) (*Styles*)
 
 ## BACKEND
 
