@@ -20,7 +20,7 @@
 
 - ### Ecosystem:
 
-     -кшщу #### [React Router:](https://reactrouter.com/en/main)
+    - кшщу #### [React Router:](https://reactrouter.com/en/main)
     - #### [React Icons: icons](https://react-icons.github.io/react-icons/)
     - #### [Tailwind CSS: styles](/examples/react.md)
 
