@@ -1,14 +1,12 @@
 # Fullstack JS developer
 
 ### JavaScript
-
 - #### [Knowledge Graph: Mind Map](https://jeankei.github.io/graphJS/)
 - #### [Knowledge Graph: Docs, Notes and Examples](/examples/js.md)
 
-## TypeScript
-
-- ### [Docs | TypeScript](https://www.typescriptlang.org/docs/)
-- ### [Notes and Examples](/examples/ts.md)
+### TypeScript
+- #### [Docs | TypeScript](https://www.typescriptlang.org/docs/)
+- #### [Notes and Examples](/examples/ts.md)
 
 ## FRONTEND
 
@@ -21,7 +19,8 @@
     - #### [Notes and Examples](/examples/next.md)
 
 - ### Ecosystem:
-    - #### [React Router: routing](https://reactrouter.com/en/main)
+
+     -кшщу #### [React Router:](https://reactrouter.com/en/main)
     - #### [React Icons: icons](https://react-icons.github.io/react-icons/)
     - #### [Tailwind CSS: styles](/examples/react.md)
 
