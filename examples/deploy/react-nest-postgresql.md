@@ -1,4 +1,4 @@
-### 1.New User:
+### 1. New User:
 
 ```javascript
 sudo adduser jean // add new root user
@@ -9,16 +9,17 @@ Add new row "max ALL=(ALL:ALL)ALL" after "root ALL=(ALL:ALL) ALL"
 sudo su - jean - change user
 ```
 
-### 2 GIT
+### 2. GIT
         
 ```javascript 
 sudo apt update 
 ```
 ```javascript
-sudo apt-get install git-all // git
+// git
+sudo apt-get install git-all 
 ```
 
-### 3 Upload project
+### 3. Upload project
 
         
 ```javascript
@@ -33,7 +34,7 @@ cat id_rsa.pub
 git clone git@github.com:username/front.git
 ```
 	
-### 4 Database - PostgreSQL
+### 4. Database - PostgreSQL
         
 ```javascript
 sudo apt update 
@@ -49,7 +50,7 @@ CREATE DATABASE tg OWNER jeankei;
 GRANT ALL PRIVILEGES ON DATABASE tg TO jeankei;
 ```
 
-**команды**
+**Команды**
 
 ```javascript
 \du // list of users 
@@ -59,7 +60,7 @@ GRANT ALL PRIVILEGES ON DATABASE tg TO jeankei;
 \q //Exit
 ```
 
-### 5 Install nvm, node, npm, install dep
+### 5. Install nvm, node, npm, install dep
         
 ```javascript
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
@@ -85,7 +86,7 @@ nvm use 18.13.0
 install dep
 change .env
 
-### 6 Database - PostgreSQL
+### 6. Database - PostgreSQL
 
 
 ```javascript
@@ -99,7 +100,7 @@ psql -U jeankei -d tg -h localhost
 SELECT * FROM channelsp LIMIT 10;
 ```
 
-### 6 PM 2 (process manager)
+### 7. PM 2 (process manager)
 
 ```javascript
 // for client and server
@@ -112,6 +113,7 @@ npm install pm2 -g
 
 // React
 pm2 serve /home/jean/uma/uma_frontend/dist 8080 --spa 
+
 // Nest
 pm2 start npm --name server -- start 
 ```
@@ -122,7 +124,7 @@ pm2 startup ubuntu
 // копируем строчку после ввода
 ```
 
-- **команды**
+- **Команды**
 ```javascript
 pm2 save // сохранить 
 pm2 stop all // остановка всех процессов
@@ -134,8 +136,7 @@ pm2 flush // удалить логи
 pm2 reload all // перезагрузка 
 ```
 	
--------------------------------------------------------------------------------------------------
-### 8 Nginx (web-server)
+### 8. Nginx (web-server)
 
 ```javascript
 // установка
@@ -159,7 +160,7 @@ sudo apt purge apache2
 sudo nano /etc/nginx/sites-available/default
 ```
 
-- **команды**
+- **Команды**
 ```javascript
 sudo service nginx restart // restart 
 
@@ -194,17 +195,17 @@ server {
 
 
 
-### 9 Frontend - меняем запрос к базе
+### 9. Frontend - меняем запрос к базе
 
 ```javascript
 baseURL: 'http://localhost:3001/api', change to baseURL: 'http://uma.jeankei.ru/api', 
 ```
 
-### 10 Домен
+### 10. Домен
 
 Привязать домен к VPS	
 
-### 11 SSL (ставим через бота):
+### 11. SSL (ставим через бота):
 
 ```javascript
 sudo apt install certbot python3-certbot-nginx
@@ -220,7 +221,7 @@ sudo certbot renew --dry-run
 ```
 
 
-### КОМАНДЫ Linux:
+### Команды Linux:
 
 ```javascript
 mkdir // new folder
