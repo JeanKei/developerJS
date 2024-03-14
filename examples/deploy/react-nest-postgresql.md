@@ -1,4 +1,4 @@
-### 1. New User:
+### 1. New User
 
 ```javascript
 sudo adduser jean // add new root user
