@@ -1,11 +1,9 @@
 ### 1.New User:
 
 ```javascript
-// add new root user
-sudo adduser jean 
+sudo adduser jean // add new root user
 
-// add permission 
-visudo 
+visudo // add permission 
 Add new row "max ALL=(ALL:ALL)ALL" after "root ALL=(ALL:ALL) ALL"
 
 sudo su - jean - change user
@@ -13,12 +11,11 @@ sudo su - jean - change user
 
 ### 2 GIT
         
-```javascript
+```javascript 
 sudo apt update 
 ```
 ```javascript
-// git
-sudo apt-get install git-all 
+sudo apt-get install git-all // git
 ```
 
 ### 3 Upload project
@@ -29,7 +26,7 @@ sudo apt-get install git-all
 ssh-keygen -o -t rsa -C "ssh@github.com" 
 
 // copy => paste to github account
-cat id_rsa.pub 
+cat id_rsa.pub
 ```
 
 ```javascript
@@ -55,23 +52,24 @@ GRANT ALL PRIVILEGES ON DATABASE tg TO jeankei;
 **команды**
 
 ```javascript
-// list of users 
-\du 
-//list of dbs 
-\l 
-//Exit
-\q 
+\du // list of users 
+
+\l //list of dbs 
+
+\q //Exit
 ```
 
 ### 5 Install nvm, node, npm, install dep
         
-
+```javascript
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-Копируем (команду из сообщения)
+// Копируем (команду из сообщения)
+```
 
 
 ```javascript
-nvm -v //test
+//test
+nvm -v 
 ```
 
 ```javascript
@@ -87,7 +85,6 @@ nvm use 18.13.0
 install dep
 change .env
 
--------------------------------------------------------------------------------------------------
 ### 6 Database - PostgreSQL
 
 
@@ -102,14 +99,12 @@ psql -U jeankei -d tg -h localhost
 SELECT * FROM channelsp LIMIT 10;
 ```
 
--------------------------------------------------------------------------------------------------
 ### 6 PM 2 (process manager)
 
 ```javascript
 // for client and server
 npm run build 
 ```
-
 
 ```javascript
 // Установка
@@ -121,14 +116,13 @@ pm2 serve /home/jean/uma/uma_frontend/dist 8080 --spa
 pm2 start npm --name server -- start 
 ```
 	
-
 ```javascript
 // авто включение при перезагрузки, 
 pm2 startup ubuntu 
 // копируем строчку после ввода
 ```
 
-**команды**
+- **команды**
 ```javascript
 pm2 save // сохранить 
 pm2 stop all // остановка всех процессов
@@ -165,7 +159,7 @@ sudo apt purge apache2
 sudo nano /etc/nginx/sites-available/default
 ```
 
-**команды**
+- **команды**
 ```javascript
 sudo service nginx restart // restart 
 
@@ -237,5 +231,3 @@ pwd // узнать путь
 
 nano // редактор
 ```
-
-
