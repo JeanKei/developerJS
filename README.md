@@ -41,7 +41,7 @@
     - [PostgreSQL](https://www.postgresql.org/)
 
 ## Deploy
-
+    - [React, Nest, PostgreSQL - Deploy to VPS, SSL, linux команды](/examples/deploy/react-nest-postgresql.md)
 ## Tools
 
 
