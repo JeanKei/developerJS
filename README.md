@@ -21,8 +21,10 @@
 - ### Ecosystem (React, Next)
 
     - [React Router](https://reactrouter.com/en/main) (*routing*)
-    - [Redux Toolkit](https://redux-toolkit.js.org/) (*state management*)
     - [React Icons](https://react-icons.github.io/react-icons/) (*icons*)
+    - [Lucide Icons](https://lucide.dev/guide/packages/lucide-react) (*icons*)
+    - [Redux Toolkit](https://redux-toolkit.js.org/) (*state management*)
+    - [TanStack Query](https://tanstack.com/query/latest) (*state management*)
     - [Tailwind CSS](/examples/react.md) (*styles*)
     - [Recharts](/examples/react.md) (*charts*)
 
